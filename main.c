@@ -22,6 +22,7 @@ int go_up;
 int go_down;
 int char_constant;
 
+
 int elevator_execute();
 
 int main() 
@@ -36,16 +37,13 @@ int main()
 
 int elevator_execute() 
 {
-    extern int current_floor;
-    extern int num_of_floors;
-    extern int go_up;
-    extern int go_down;
-    extern int char_constant;
+
     current_floor = 1;
     num_of_floors = 10;
     go_up = 0;
     go_down = 0;
     char_constant = 48;
+    int CHECKHEREMOTHERFUCKER = 240;
     while(1) {
         printf("---- Current Floor: %d ----\n", current_floor);
         printf("What floor would you like to go to: ");
